@@ -1,4 +1,4 @@
-const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+const API = process.env.NEXT_PUBLIC_API_URL || '';
 
 async function f(path: string, opts?: RequestInit) {
   const res = await fetch(`${API}${path}`, { ...opts, headers: { 'Content-Type': 'application/json', ...opts?.headers } });
