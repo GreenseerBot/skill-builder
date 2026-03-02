@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0a0a0b;
+  --bg-secondary: #111113;
+  --bg-tertiary: #1a1a1e;
+  --border: #2a2a2e;
+  --text-primary: #ececed;
+  --text-secondary: #8b8b8e;
+  --accent: #6366f1;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #333 transparent;
+}
